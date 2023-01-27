@@ -1,0 +1,19 @@
+.tool-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navigation-links {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 700px) {
+    .tool-bar {
+        display: flex;
+        justify-content: center;
+    }
+    .logo {
+        display: none;
+    }
+}
